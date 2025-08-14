@@ -1,5 +1,6 @@
 import React from 'react';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import './App.css';
 
 // Corrected imports with proper casing and file extensions
 import Header from './components/Header.jsx';
