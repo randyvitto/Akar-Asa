@@ -1,18 +1,21 @@
 import React from 'react';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
-import './App.css'; // Your CSS is now imported here
-import Header from './components/header';
-import Footer from './components/footer';
-import Home from './pages/Home';
-import About from './pages/About';
-import Collection from './pages/Collection';
-import Shop from './pages/Shop';
-import NyaiDress from './pages/NyaiDress';
-import IlightJacket from './pages/ILightJacket';
-import OmbakShirt from './pages/OmbakShirt';
-import OmbakSkirt from './pages/OmbakSkirt';
-import KetupatTop from './pages/KetupatTop';
-import RoroSkirt from './pages/RoroSkirt';
+
+// Corrected imports with proper casing and file extensions
+import Header from './components/Header.jsx';
+import Footer from './components/Footer.jsx';
+import Home from './pages/Home.jsx';
+import About from './pages/About.jsx';
+import Collection from './pages/Collection.jsx';
+import Shop from './pages/Shop.jsx';
+
+// Also correct the product pages if they exist
+import NyaiDress from './pages/NyaiDress.jsx';
+import IlightJacket from './pages/ILightJacket.jsx';
+import OmbakShirt from './pages/OmbakShirt.jsx';
+import OmbakSkirt from './pages/OmbakSkirt.jsx';
+import KetupatTop from './pages/KetupatTop.jsx';
+import RoroSkirt from './pages/RoroSkirt.jsx';
 
 
 function App() {
