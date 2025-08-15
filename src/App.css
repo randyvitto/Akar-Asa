@@ -486,3 +486,51 @@ nav a:hover {
     grid-template-columns: repeat(3, 1fr);
   }
 }
+
+/* --- Add this code to the bottom of your CSS file --- */
+
+@media (max-width: 768px) {
+
+  /* --- Header Adjustments for Mobile --- */
+  header {
+    padding: 15px;
+    flex-direction: column; /* Stack logo and nav links */
+    gap: 15px;
+  }
+
+  nav a {
+    margin: 0 10px;
+    font-size: 14px; /* Keep nav links a readable size */
+  }
+
+  /* --- General Content Padding for Mobile --- */
+  .page-container,
+  .intro,
+  .shop-container,
+  .product-container,
+  .gallery {
+    padding: 20px; /* Reduce padding on all content sections */
+  }
+
+  /* --- Shop Page on Mobile (2 columns) --- */
+  .shop-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  /* --- Product Page on Mobile --- */
+  .product-container {
+    flex-direction: column; /* Stack image and info vertically */
+  }
+
+  .product-info select,
+  .product-info button {
+    padding: 12px; /* Make buttons/dropdowns a bit smaller */
+    font-size: 16px;
+  }
+  
+  .tabs {
+    flex-direction: column; /* Stack tabs vertically */
+    align-items: flex-start;
+  }
+}
