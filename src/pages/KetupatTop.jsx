@@ -39,7 +39,7 @@ const KetupatTop = () => {
                   <br /><br />
                   <strong>Composition:</strong> 100% RAYON.
                   <br /><br />
-                  <strong>Colorway:</strong> <Cream></Cream>.
+                  <strong>Colorway:</strong> Cream.
               </div>
               <div className={`tab-content ${activeTab === 'size' ? 'active' : ''}`}>
                   This item fits true to size. Model wears size Medium.
