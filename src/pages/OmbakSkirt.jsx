@@ -39,7 +39,7 @@ const OmbakSkirt = () => {
                   <br /><br />
                   <strong>Composition:</strong> 100% COTTON
                   <br /><br />
-                  <strong>Colorway:</strong> Not specified.
+                  <strong>Colorway:</strong> Brown.
               </div>
               <div className={`tab-content ${activeTab === 'size' ? 'active' : ''}`}>
                   This item fits true to size. Model wears size Medium.

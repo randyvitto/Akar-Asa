@@ -35,11 +35,11 @@ const RoroSkirt = () => {
               <div className={`tab-content ${activeTab === 'desc' ? 'active' : ''}`}>
                   <strong>Description:</strong> A LINE SKIRT WITH WAISTBAND AND LACE
                   <br /><br />
-                  <strong>Fabric:</strong> Not specified.
+                  <strong>Fabric:</strong> JACQUARD.
                   <br /><br />
-                  <strong>Composition:</strong> Not specified.
+                  <strong>Composition:</strong> 100% POLYESTER.
                   <br /><br />
-                  <strong>Colorway:</strong> Not specified.
+                  <strong>Colorway:</strong> Emerald Green.
               </div>
               <div className={`tab-content ${activeTab === 'size' ? 'active' : ''}`}>
                   This item fits true to size. Model wears size Medium.

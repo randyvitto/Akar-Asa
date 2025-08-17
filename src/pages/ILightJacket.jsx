@@ -39,7 +39,7 @@ const IlightJacket = () => {
                   <br /><br />
                   <strong>Composition:</strong> 100% POLYESTER
                   <br /><br />
-                  <strong>Colorway:</strong> Not specified.
+                  <strong>Colorway:</strong> Cream.
               </div>
               <div className={`tab-content ${activeTab === 'size' ? 'active' : ''}`}>
                   This item fits true to size. Model wears size Medium.
